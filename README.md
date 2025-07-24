@@ -6,7 +6,7 @@
 <p align="center">
 🎓 Studying Computer Science at <strong>UIR (Université Internationale de Rabat)</strong>  
 🔐 Passionate about <strong>Offensive Cybersecurity</strong>, <strong>Electronics</strong>, and <strong>AI</strong>  
-💼 On a mission to become wealthy through <strong>entrepreneurship</strong> or <strong>cybersecurity expertise</strong> by 30  
+💼 On a mission to become wealthy through <strong>entrepreneurship</strong> and <strong>cybersecurity expertise</strong> by 30  
 🚀 Building projects, solving CTFs, and learning daily  
 </p>
 

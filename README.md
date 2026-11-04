@@ -45,7 +45,7 @@ hardware   esp8266/esp32 · arduino · lora · rs485 · uart · i2c · nrf24 · 
 ### 🎯 leveling up
 
 - [x] TryHackMe Pre-Security & Cyber Security 101 → [profile](https://tryhackme.com/p/tahito)
-- [ ] TryHackMe Jr Penetration Tester (almost there)
+- [x] TryHackMe Jr Penetration Tester
 - [ ] Cisco **CCNA** (in progress)
 - [ ] HTB Academy grind
 - [ ] **HTB CPTS** (next boss)

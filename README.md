@@ -1,92 +1,55 @@
-<h1 align="center">Hi there 👋, I'm Taha Benkacem</h1>
-<h3 align="center">Computer Science Student | Offensive Security Enthusiast | Builder of Smart Projects</h3>
+<div align="center">
+
+# Taha Benkacem
+
+**Computer Science Engineering student @ UIR · Offensive security · IoT & embedded**
+
+*"Hello, friend."* — Mr. Robot &nbsp;·&nbsp; *"You are being watched."* — Person of Interest
+
+</div>
+
+I'm a 2nd-year Computer Science Engineering student at Université Internationale de Rabat (Morocco, 5-year program). I like taking systems apart, from web apps to cheap IoT devices, to see how they really work and where they break. Then I write up what I find.
+
+🎯 **Looking for a cybersecurity internship (pentest / AppSec / IoT security) for summer 2027.**
 
 ---
 
-<p align="center">
-🎓 Studying Computer Science at <strong>UIR (Université Internationale de Rabat)</strong>  
-🔐 Passionate about <strong>Offensive Cybersecurity</strong>, <strong>Electronics</strong>, and <strong>AI</strong>  
-💼 On a mission to become wealthy through <strong>entrepreneurship</strong> and <strong>cybersecurity expertise</strong> by 30  
-🚀 Building projects, solving CTFs, and learning daily  
-</p>
+### 🔍 What I do
+
+- **CTFs & write-ups:** web, reverse engineering, steganography and crypto challenges, documented step by step → [ctf-writeups](https://github.com/TahaXploit/ctf-writeups)
+- **IoT security research:** tore down a cheap "A9" Wi-Fi camera. Mapped it with nmap/arp-scan, fingerprinted an lwIP stack with zero open TCP ports, and found it broadcasting its UID, serial number and admin username in cleartext over UDP (pcap analysis with Wireshark & scapy). *Write-up coming.*
+- **Bug bounty:** recon with subfinder, httpx, nuclei, ffuf and Burp Suite. I'm building a documentation-first, human-in-the-loop workflow for YesWeHack programs: scope intake, findings journal, report templates.
+- **Homelab:** self-hosted Debian server on an old laptop running my own apps in Docker, reached privately over Tailscale. It's my playground for hardening, networking and MITM/ARP-spoofing labs on an isolated network.
+- **Building things:** "Hub", a SwiftUI iPhone app that fronts all my self-hosted services. An ESP8266 + DHT22 sensor dashboard with a Python serial bridge and systemd service. A solar-powered ESP8266 agriculture node reading NPK/EC sensors over RS485, on a PCB I designed in EasyEDA.
+
+### 📚 What I'm studying (UIR, semester 3)
+
+- **Networks:** TCP/IP, addressing, routing & switching (alongside my CCNA)
+- **Operating systems:** processes & scheduling (FCFS, SJF, RR…), system calls, `fork`/`exec`/`wait` in C, a custom `ls`, shell, `grep`/`sed`/regex
+- **Databases:** ER modeling, relational algebra & joins, SQL with MySQL (DDL, constraints, referential integrity)
+- **Analog electronics:** PN junctions, diodes, transistors
 
 ---
 
-## 💡 What I Know in Computer Science
+### 🛠️ Toolbox
 
-### 🔐 Cybersecurity (Offensive)
-- Tools: Bettercap, Metasploit, Burp Suite, Wireshark, Nmap, Netcat, SpiderFoot, Hydra, JohnTheRipper, etc.
-- Platforms: TryHackMe (completed Pre-Security and CyberSecurity 101 Path)
-- Attacks: ARP Spoofing, Reverse Shells, HTTPS downgrade, Credential harvesting, Basic enumeration & exploitation
-- Network concepts: TCP/IP, DNS, HTTP, VPNs, Firewalls
+**Offensive:** Burp Suite · Nmap · Metasploit · ffuf · nuclei · Hydra · John the Ripper · Bettercap · Ghidra  
+**Network & forensics:** Wireshark · tcpdump · scapy · binwalk · zsteg  
+**Languages:** Python · C/C++ · Bash · SQL · JavaScript/TypeScript · Swift  
+**Systems:** Kali & Debian Linux · Docker · Tailscale · Git  
+**Hardware:** ESP8266/ESP32 · Arduino · LoRa (TTGO T-Beam) · RS485 · UART · I2C · NRF24L01 · EasyEDA
 
-### ⚙️ Programming
-- Languages: Python, C/C++, Bash, JavaScript
-- Scripts: Automation, reverse shells, web scrapers, Arduino/ESP8266 firmware
+### 📈 Certifications & training
 
-### 💻 Systems & Tools
-- OS: Linux (Kali, Ubuntu), Windows
-- Terminal/Shell scripting
-- Git & GitHub for version control
-- VirtualBox & VM management
-
-### 📡 Electronics & Embedded Systems
-- Microcontrollers: ESP8266, ESP32, Arduino Uno, LilyGO TTGO T3, T-BEAM
-- Communication: RS485, NRF24L01, UART, I2C
-- Sensors: NPK, Soil EC/Moisture/Temperature, DHT, etc.
-- Power: Solar panel integration, battery charging with TP4056
-
-### 📊 Data & Productivity
-- Google Workspace, Office tools, Notion
-- Markdown & LaTeX
-- Excel (formulas, data analysis)
-- Basic data structures & algorithms
+- 🟡 **Cisco CCNA:** in progress
+- ⏭️ **HTB CPTS** (Certified Penetration Testing Specialist): next
+- **Hack The Box Academy:** working through the pentester modules
+- **TryHackMe:** Pre-Security ✅ · Cyber Security 101 ✅ · Jr Penetration Tester (in progress) → [profile](https://tryhackme.com/p/tahito)
 
 ---
 
-## 🔨 My Personal Projects
+<div align="center">
 
-### 🌱 Smart Agriculture Node
-- ESP8266-based low-power sensor node
-- Uses RS485 to get data from NPK and EC sensors
-- Powered by solar panel & Li-ion battery
-- Sends data wirelessly via Wi-Fi or NRF24L01
-- PCB designed in EasyEDA
-- Status: 🛠 In progress
+📫 [LinkedIn](https://www.linkedin.com/in/taha-benkacem-18665b279/) · taha.benkacem@uir.ac.ma
 
-### 🧠 StudyGPT / LifeOS
-- AI-based academic assistant and productivity app
-- Modules: Note-taking, study scheduling, financial planning (50/30/20), goal setting
-- Built using: Supabase, TailwindCSS, React, and GPT-4
-- Status: 🚀 Prototype phase
-
-### 🛡️ TryHackMe Portfolio
-- Documenting all completed rooms & learning paths
-- Focus: Pre-Security ➝ Cybersecurity Essentials ➝ Bug Bounty Readiness
-- Goal: Build strong hacking profile to start bug hunting and get internships
-- Status: ✅ Actively progressing
-
----
-
-## 🔭 Goals for 2025+
-- ✅ Master offensive security fundamentals
-- 🔜 Launch my first profitable SaaS or hardware product
-- 💸 Start earning from bug bounty platforms (Bugcrowd, HackerOne)
-- 🌍 Get cybersecurity internships globally during university breaks
-- 🎯 Become financially independent before age 30
-
----
-
-## 📫 How to Reach Me
-- 📧 taha.benkacem@uir.ac.ma
-- 💼 [LinkedIn](https://www.linkedin.com/in/taha-benkacem-18665b279/)
-- 🧠 [TryHackMe Profile](https://tryhackme.com/p/tahito)
-
----
-
-## 🧠 Fun Fact
-> I see cybersecurity not just as a career — but as a **strategic weapon** to create freedom, impact, and security.
-
----
-
-<p align="center">✨ Feel free to explore, fork, and connect! Let’s build something great. ✨</p>
+</div>

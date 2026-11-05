@@ -20,7 +20,6 @@ looking for a cybersecurity internship for summer 2027 (pentest / appsec / iot)
 ### 🕵️ stuff I've been up to
 
 - **CTFs.** Web, reversing, stego, crypto. Every flag gets a write-up, including the dumb rabbit holes → [ctf-writeups](https://github.com/TahaXploit/ctf-writeups)
-- **Pwning a 50 dh camera.** Bought a cheap "A9" Wi-Fi cam to self-host it, ended up investigating it instead. Zero open ports, lwIP stack, and it happily shouts its UID, serial number and admin username across the LAN in cleartext UDP. Opened it up next to hunt for UART. *Write-up loading...*
 - **Bug bounty.** subfinder → httpx → nuclei → ffuf → Burp, then a lot of staring. Building my own human-in-the-loop workflow for YesWeHack: scope notes, findings journal, report templates. No bounties yet, just vibes and recon.
 - **Homelab.** An old HP laptop running Debian and a pile of Docker containers, reachable only through Tailscale. It's where I self-host my own apps and where ARP spoofing / MITM experiments are legally allowed (it's my network, I asked myself).
 - **Building random things.** "Hub", a SwiftUI iPhone app for all my self-hosted services. An ESP8266 + DHT22 dashboard that pipes data to the server over USB. A solar-powered ESP8266 node reading soil sensors over RS485, on a PCB I designed myself.
